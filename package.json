@@ -1,0 +1,87 @@
+{
+  "name": "slide-frog",
+  "productName": "Slide Frog",
+  "version": "1.0.0",
+  "description": "Slide Frog - a presentation app with automatic picture arrangement.",
+  "main": "main.js",
+  "author": {
+    "name": "Ari Fitriansyah"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.frogstudioku.slidefrog",
+    "productName": "Slide Frog",
+    "copyright": "© 2026 Ari Fitriansyah. All rights reserved",
+    "directories": {
+      "buildResources": "build",
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "icon.png",
+      "fonts/**/*"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "legalTrademarks": "Slide Frog"
+    },
+    "nsis": {
+      "artifactName": "Slide-Frog-Setup-${version}.${ext}",
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "multiLanguageInstaller": true,
+      "displayLanguageSelector": true,
+      "installerLanguages": [
+        "en_US",
+        "id_ID",
+        "es_ES",
+        "fr_FR",
+        "de_DE",
+        "pt_BR",
+        "ja_JP",
+        "ko_KR",
+        "zh_CN",
+        "ru_RU"
+      ],
+      "license": "build/license.txt",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Slide Frog",
+      "uninstallDisplayName": "Slide Frog",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "deleteAppDataOnUninstall": false,
+      "runAfterFinish": true
+    },
+    "portable": {
+      "artifactName": "Slide-Frog-Portable-${version}.${ext}"
+    }
+  }
+}

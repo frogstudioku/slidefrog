@@ -1,0 +1,107 @@
+SLIDE FROG
+END USER LICENSE AGREEMENT (EULA)
+
+Copyright (c) 2026 Ari Fitriansyah. All rights reserved.
+
+PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING SLIDE FROG.
+By installing, copying or using the software, you agree to be bound by the
+terms of this Agreement. If you do not agree, do not install or use the
+software.
+
+1. PARTIES AND SOFTWARE
+This End User License Agreement ("Agreement") is between you ("You") and
+Ari Fitriansyah ("Licensor"), the author and publisher of the desktop
+presentation application "Slide Frog", including its installer, program files,
+fonts, icons, documentation and any updates supplied by the Licensor
+(together, the "Software").
+
+2. LICENSE GRANT
+Subject to this Agreement, the Licensor grants You a personal, non-exclusive,
+non-transferable, revocable license to install and use the Software on devices
+that You own or control, for Your personal or internal business purposes.
+
+3. RESTRICTIONS
+You may not, and may not allow others to:
+  a) copy, sell, rent, lease, sublicense, distribute or otherwise make the
+     Software available to third parties, except for making one backup copy
+     or as expressly permitted in writing by the Licensor;
+  b) modify, translate, adapt or create derivative works of the Software;
+  c) reverse engineer, decompile or disassemble the Software, or attempt to
+     discover its source code, except to the extent that applicable law
+     expressly permits this despite this restriction;
+  d) remove, alter or obscure any copyright, trademark or other proprietary
+     notice in the Software;
+  e) use the Software to infringe the rights of others or to violate any law.
+
+4. OWNERSHIP
+The Software is licensed, not sold. The Licensor retains all right, title and
+interest in the Software, including all copyrights, trademarks (including the
+names "Slide Frog" and the frog logo) and other intellectual property rights.
+No rights are granted to You except those expressly stated in this Agreement.
+
+5. YOUR CONTENT
+You retain all rights to the presentations, pictures, text, audio narrations
+and other content that You create or import using the Software ("Your
+Content"). The Licensor does not claim any ownership of Your Content. You are
+solely responsible for Your Content and for keeping backups of it.
+
+6. PRIVACY
+The Software runs locally on Your device. The Licensor does not collect,
+transmit or store Your Content or personal data through the Software. Features
+that use the microphone (Record Slide Show), the screen (Screenshot) or
+monitor information (Slide Show) only process data on Your device and only
+when You use those features.
+
+7. THIRD-PARTY COMPONENTS
+The Software is built with third-party open-source components, including
+Electron and Chromium, which are licensed under their own license terms. Those
+terms apply to the respective components and are available with the Software
+(for example in the files LICENSE.electron.txt and LICENSES.chromium.html
+installed with the application).
+
+8. UPDATES
+The Licensor may, but is not obliged to, provide updates, fixes or new
+versions. Unless a separate license accompanies an update, updates are part of
+the Software and governed by this Agreement.
+
+9. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.
+THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE,
+UNINTERRUPTED OR FREE OF HARMFUL COMPONENTS, OR THAT IT WILL MEET YOUR
+REQUIREMENTS. SLIDE FROG IS NOT AFFILIATED WITH, ENDORSED BY OR CONNECTED TO
+MICROSOFT CORPORATION OR MICROSOFT POWERPOINT.
+
+10. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE
+DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, REVENUE OR GOODWILL, ARISING OUT OF
+OR RELATED TO THE USE OF, OR INABILITY TO USE, THE SOFTWARE, EVEN IF THE
+LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE LICENSOR'S
+TOTAL LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT YOU PAID FOR
+THE SOFTWARE, OR ZERO IF THE SOFTWARE WAS PROVIDED TO YOU FREE OF CHARGE.
+
+11. TERMINATION
+This Agreement is effective until terminated. It terminates automatically if
+You fail to comply with any of its terms. Upon termination You must stop using
+the Software and delete all copies of it. Sections 3, 4, 9, 10, 11 and 12
+survive termination.
+
+12. GOVERNING LAW
+This Agreement is governed by the laws of the Republic of Indonesia, without
+regard to its conflict-of-law principles. Any dispute arising from this
+Agreement shall be submitted to the competent courts in Indonesia.
+
+13. GENERAL
+If any provision of this Agreement is held to be unenforceable, the remaining
+provisions remain in full force. This Agreement is the entire agreement
+between You and the Licensor regarding the Software and supersedes any prior
+understanding. The Licensor may publish a new version of this Agreement with
+a new version of the Software.
+
+14. CONTACT
+Questions about this Agreement may be sent to the Licensor, Ari Fitriansyah,
+through the project's GitHub repository.
+
+(c) 2026 Ari Fitriansyah. All rights reserved.
