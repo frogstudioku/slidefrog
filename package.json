@@ -28,8 +28,11 @@
     "files": [
       "main.js",
       "index.html",
+      "splash.html",
       "icon.png",
-      "fonts/**/*"
+      "fonts/**/*",
+      "libs/**/*",
+      "assets/**/*"
     ],
     "asar": true,
     "win": {

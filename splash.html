@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Slide Frog</title>
+<style>
+@font-face{font-family:Syne;font-weight:700;src:url(fonts/syne-700.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:400;src:url(fonts/inter-400.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:600;src:url(fonts/inter-600.woff2) format('woff2')}
+:root{--z:1.2}
+html,body{margin:0;height:100%;background:transparent;overflow:hidden;-webkit-user-select:none;user-select:none}
+body{display:grid;place-items:center}
+/* Card is designed at 720x480 and scaled with --z */
+.card{zoom:var(--z);position:relative;width:720px;height:480px;border-radius:10px;overflow:hidden;display:grid;grid-template-columns:374px 346px;background:#fff;box-shadow:0 18px 50px rgba(0,0,0,.45),0 0 0 1px rgba(0,0,0,.06);animation:in .35s ease both;-webkit-app-region:drag}
+.l{position:relative;padding:28px 28px 0;font-family:Inter,"Segoe UI",system-ui,sans-serif;font-size:9px;line-height:14px;color:#1b1b1b}
+.ico{width:41px;height:41px;border-radius:9px;overflow:hidden;border:1px solid rgba(0,0,0,.1);box-sizing:border-box}
+.ico img{display:block;width:100%;height:100%;object-fit:cover}
+.name{margin-top:11px;font:700 27px/32px Syne,"Segoe UI",sans-serif;letter-spacing:0;color:#1b1b1b}
+.txt{margin-top:11px}
+.txt p{margin:0 0 9px}
+.g{margin-top:20px}.g div{margin-bottom:8px}.g b{display:block;font-weight:600}
+.legal{position:absolute;left:28px;width:300px;top:413px;font-size:6.9px;line-height:11px;color:#6b6b6b}
+.status{position:absolute;left:28px;top:444px;font-size:9.5px}
+.bar{position:absolute;left:0;bottom:0;width:374px;height:4px;background:#ebebeb}
+.bar i{display:block;height:100%;width:0;background:#f26a21;animation:ld 3s ease-in-out forwards}
+.r{position:relative;background:#f6efe6}
+.r img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+@keyframes ld{to{width:100%}}@keyframes in{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+</style></head><body>
+<div class="card">
+  <div class="l">
+    <div class="ico"><img src="assets/app-icon.png" alt=""></div>
+    <div class="name">Slide Frog</div>
+    <div class="txt">
+      <p>Copyright &copy; 2026 Ari Fitriansyah. All rights reserved.</p>
+      <p>Slide Frog is presentation software developed by Ari Fitriansyah.</p>
+      <p>Designed to make creating, editing, and presenting slides simple and intuitive.</p>
+      <div class="g">
+        <div><b>Software License</b>Licensed to: Ari Fitriansyah</div>
+        <div><b>Developer</b>Ari Fitriansyah</div>
+        <div><b>Product</b>Slide Frog &mdash; Presentation Software</div>
+      </div>
+    </div>
+    <div class="legal">All rights reserved. Unauthorized reproduction, redistribution, or modification of this software is prohibited without prior permission from the developer.</div>
+    <div class="status">Starting Slide Frog...</div>
+    <div class="bar"><i></i></div>
+  </div>
+  <div class="r"><img src="assets/splash-art.jpg" alt=""></div>
+</div>
+</body></html>

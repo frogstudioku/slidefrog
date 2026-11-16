@@ -13,9 +13,19 @@ A Windows presentation app with a PowerPoint-style ribbon and **automatic pictur
 | `main.js` | Electron main process (window, permissions) |
 | `package.json` | App metadata, version and installer (electron-builder) settings |
 | `icon.png`, `build/icon.ico` | Window and installer icons |
-| `fonts/` | Bundled Syne font (works offline) |
+| `splash.html`, `assets/` | Adobe-style splash screen (shown in its own window when the app starts) |
+| `fonts/` | Bundled Syne and Inter fonts (SIL Open Font License, license files included) so the app looks the same offline |
+| `libs/` | PptxGenJS + JSZip (MIT) used to write .pptx/.pptm/.ppsx/.ppsm/.potx files offline |
 | `build/license.txt`, `LICENSE.txt` | EULA shown during installation |
 | `.github/workflows/build.yml` | GitHub Actions workflow that builds the EXE |
+
+## Save As formats
+
+File > Save As offers: `.pptx` (PowerPoint Presentation), `.pptm` (macro-enabled), `.pdf`,
+`.ppsx` / `.ppsm` (PowerPoint Show) and `.potx` (template), plus the Slide Frog project file (`.json`).
+Files created by Slide Frog can be opened again in Slide Frog (the project is embedded inside the file).
+Slide Frog does not create or run VBA macros; `.pptm` / `.ppsm` are only marked as macro-enabled.
+Animations and transitions are not written to PowerPoint files, and PDF pages are saved as pictures.
 
 ## Run locally
 
